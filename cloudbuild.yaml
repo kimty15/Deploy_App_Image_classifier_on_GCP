@@ -1,5 +1,5 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/docker1'
   args: ['build', '-t', 'gcr.io/warm-helix-345714/deploy_app_on_GCP', '.']
-- name: 'gcr.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/docker1'
   args: ['push', 'gcr.io/warm-helix-345714/deploy_app_on_GCP']
